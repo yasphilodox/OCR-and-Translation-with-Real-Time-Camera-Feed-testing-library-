@@ -8,3 +8,22 @@ This project demonstrates real-time Optical Character Recognition (OCR) using Te
 
    ```bash
    pip install -r requirements.txt
+   ```
+
+2. **Run the Code**:
+
+   - For using a computer camera:
+     ```bash
+     python real_time_ocr.py
+     ```
+
+   - For using an IP camera (e.g., your phone): Change the `ip_camera_url` in the code to match your phone's IP camera URL and run:
+     ```bash
+     python real_time_ocr.py
+     ```
+
+## Dependencies
+
+- OpenCV
+- pytesseract
+- googletrans
